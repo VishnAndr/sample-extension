@@ -1,0 +1,19 @@
+{
+  "name": "my-sample-extension",
+  "provider": "AV",
+  "description": "FSM sample extension",
+  "version": "0.0.1",
+  "icon": "",
+  "dockerRegistry": "docker.io/vishnandr",
+  "helmChartVersion": "2.13.0",
+  "parameters": [{
+      "name": "token",      
+      "description": "token description goes here",      
+      "required": false    
+    },    
+    {     
+      "name": "targetsystemurl",     
+      "description": "target system url goes there",     
+      "required": true 
+    }]
+}
